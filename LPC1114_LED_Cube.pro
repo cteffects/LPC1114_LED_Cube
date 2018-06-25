@@ -1,4 +1,4 @@
-update=6/23/2018 11:10:36 PM
+update=6/24/2018 9:42:46 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -466,3 +466,4 @@ LibName434=atmel
 LibName435=contrib
 LibName436=valves
 LibName437=ch340t
+LibName438=ld33v
