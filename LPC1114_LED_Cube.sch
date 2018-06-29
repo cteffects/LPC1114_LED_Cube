@@ -613,9 +613,9 @@ Text GLabel 4350 1750 0    60   Input ~ 0
 LED_SIN
 Text GLabel 5250 2850 2    60   Input ~ 0
 XERR_CH0
-Text GLabel 2750 2250 2    60   Output ~ 0
+Text GLabel 1350 2850 0    60   Output ~ 0
 BLANK
-Text GLabel 3450 2550 2    60   Input ~ 0
+Text GLabel 1350 3150 0    60   Output ~ 0
 DCPRG
 Text GLabel 1350 1550 0    60   Output ~ 0
 LED_GS_CLK
@@ -623,9 +623,9 @@ Text GLabel 1350 2050 0    60   Output ~ 0
 LED_DATA_SCK
 Text GLabel 1350 2350 0    60   Output ~ 0
 LED_SIN
-Text GLabel 3450 2450 2    60   Input ~ 0
+Text GLabel 1350 2950 0    60   Output ~ 0
 VPRG
-Text GLabel 3450 2350 2    60   Input ~ 0
+Text GLabel 1350 2750 0    60   Output ~ 0
 XLAT
 Text GLabel 2750 2750 2    60   Input ~ 0
 XERR_CH0
@@ -1199,7 +1199,7 @@ L C C?
 U 1 1 5B24EBF6
 P 1650 900
 F 0 "C?" H 1675 1000 50  0000 L CNN
-F 1 "C" H 1675 800 50  0000 L CNN
+F 1 "0.1uf" H 1675 800 50  0000 L CNN
 F 2 "" H 1688 750 50  0001 C CNN
 F 3 "" H 1650 900 50  0001 C CNN
 	1    1650 900 
@@ -1469,7 +1469,7 @@ F 3 "" H 3750 6800 50  0001 C CNN
 	1    3750 6800
 	1    0    0    -1  
 $EndComp
-Text GLabel 4050 6600 2    60   Input ~ 0
+Text GLabel 4050 6600 2    60   BiDi ~ 0
 SWDIO
 Text GLabel 4050 6700 2    60   Input ~ 0
 SWCLK
@@ -1501,11 +1501,11 @@ F 3 "" H 5050 6360 50  0001 C CNN
 $EndComp
 Text GLabel 5300 6300 2    60   Input ~ 0
 V5_AUX
-Text GLabel 6400 6300 0    60   Input ~ 0
+Text GLabel 6500 6100 0    60   Input ~ 0
 V5_USB
-Text GLabel 6400 6500 0    60   Input ~ 0
+Text GLabel 6500 6300 0    60   Input ~ 0
 V5_AUX
-Text GLabel 6400 6400 0    60   Output ~ 0
+Text GLabel 6500 6200 0    60   Output ~ 0
 V5
 Text GLabel 4950 7000 0    60   Input ~ 0
 V5_USB
@@ -1523,29 +1523,29 @@ $EndComp
 $Comp
 L Conn_01x03 PWR_SEL
 U 1 1 5B34D72E
-P 6600 6400
-F 0 "PWR_SEL" H 6600 6600 50  0000 C CNN
-F 1 "Conn_01x03" H 6600 6200 50  0000 C CNN
-F 2 "" H 6600 6400 50  0001 C CNN
-F 3 "" H 6600 6400 50  0001 C CNN
-	1    6600 6400
+P 6700 6200
+F 0 "PWR_SEL" H 6700 6400 50  0000 C CNN
+F 1 "Conn_01x03" H 6700 6000 50  0000 C CNN
+F 2 "" H 6700 6200 50  0001 C CNN
+F 3 "" H 6700 6200 50  0001 C CNN
+	1    6700 6200
 	1    0    0    -1  
 $EndComp
-Text GLabel 2750 1450 2    60   Output ~ 0
-LAYER_0_ON
-Text GLabel 2750 1550 2    60   Output ~ 0
-LAYER_1_ON
-Text GLabel 2750 1650 2    60   Output ~ 0
-LAYER_2_ON
-Text GLabel 2750 1750 2    60   Output ~ 0
-LAYER_3_ON
 Text GLabel 2750 1850 2    60   Output ~ 0
-LAYER_4_ON
+LAYER_0_ON
 Text GLabel 2750 1950 2    60   Output ~ 0
-LAYER_5_ON
+LAYER_1_ON
 Text GLabel 2750 2050 2    60   Output ~ 0
-LAYER_6_ON
+LAYER_2_ON
 Text GLabel 2750 2150 2    60   Output ~ 0
+LAYER_3_ON
+Text GLabel 2750 2250 2    60   Output ~ 0
+LAYER_4_ON
+Text GLabel 2750 2350 2    60   Output ~ 0
+LAYER_5_ON
+Text GLabel 2750 2450 2    60   Output ~ 0
+LAYER_6_ON
+Text GLabel 2750 2550 2    60   Output ~ 0
 LAYER_7_ON
 Text GLabel 9400 5150 0    60   Input ~ 0
 LAYER_0_ON
@@ -1775,4 +1775,60 @@ F0 "LayerController" 60
 F1 "LayerController.sch" 60
 F2 "LAYER_0" I L 9600 5150 60 
 $EndSheet
+Text GLabel 2750 1550 2    60   Input ~ 0
+AUX_SPI_SCK
+Text GLabel 2750 1650 2    60   Input ~ 0
+AUX_SPI_MISO
+Text GLabel 2750 1750 2    60   Input ~ 0
+AUX_SPI_MOSI
+Text GLabel 2750 1450 2    60   Input ~ 0
+AUX_SPI_SSEL
+Text GLabel 8350 6150 0    60   Input ~ 0
+AUX_SPI_SSEL
+Text GLabel 8350 6250 0    60   Input ~ 0
+AUX_SPI_SCK
+Text GLabel 8350 6350 0    60   Input ~ 0
+AUX_SPI_MISO
+Text GLabel 8850 6250 2    60   Input ~ 0
+AUX_SPI_MOSI
+$Comp
+L Conn_02x04_Odd_Even SPI/Wireless
+U 1 1 5B361CD0
+P 8550 6150
+F 0 "SPI/Wireless" H 8600 6350 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 8600 5850 50  0000 C CNN
+F 2 "" H 8550 6150 50  0001 C CNN
+F 3 "" H 8550 6150 50  0001 C CNN
+	1    8550 6150
+	1    0    0    -1  
+$EndComp
+Text GLabel 8850 6050 2    60   Input ~ 0
+V3
+$Comp
+L GND #PWR?
+U 1 1 5B362960
+P 8000 5850
+F 0 "#PWR?" H 8000 5600 50  0001 C CNN
+F 1 "GND" H 8000 5700 50  0000 C CNN
+F 2 "" H 8000 5850 50  0001 C CNN
+F 3 "" H 8000 5850 50  0001 C CNN
+	1    8000 5850
+	1    0    0    -1  
+$EndComp
+Text GLabel 8850 6150 2    60   Input ~ 0
+WIRELESS_CSN
+Text GLabel 8850 6350 2    60   Input ~ 0
+WIRELESS_IRQ
+Text GLabel 1350 3550 0    60   Input ~ 0
+WIRELESS_CSN
+Text GLabel 1350 3650 0    60   Input ~ 0
+WIRELESS_IRQ
+Wire Wire Line
+	8350 6050 8150 6050
+Wire Wire Line
+	8150 6050 8150 5800
+Wire Wire Line
+	8150 5800 8000 5800
+Wire Wire Line
+	8000 5800 8000 5850
 $EndSCHEMATC
