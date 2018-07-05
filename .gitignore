@@ -17,6 +17,7 @@ $RECYCLE.BIN/
 
 #KiCad Cache and Backup Files
 *.bak
+*-bak
 *cache.lib
 
 # Windows shortcuts
