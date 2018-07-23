@@ -1,415 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:4xxx
-LIBS:4xxx_IEEE
-LIBS:74xGxx
-LIBS:74xx
-LIBS:74xx_IEEE
-LIBS:ac-dc
-LIBS:actel
-LIBS:adc-dac
-LIBS:allegro
-LIBS:Altera
-LIBS:Amplifier_Audio
-LIBS:Amplifier_Buffer
-LIBS:Amplifier_Current
-LIBS:Amplifier_Difference
-LIBS:Amplifier_Instrumentation
-LIBS:Amplifier_Operational
-LIBS:Amplifier_Video
-LIBS:Analog
-LIBS:Analog_ADC
-LIBS:Analog_DAC
-LIBS:analog_devices
-LIBS:Analog_Switch
-LIBS:analog_switches
-LIBS:atmel
-LIBS:Audio
-LIBS:Battery_Management
-LIBS:bbd
-LIBS:bosch
-LIBS:brooktre
-LIBS:cmos_ieee
-LIBS:cmos4000
-LIBS:Comparator
-LIBS:conn
-LIBS:Connector
-LIBS:Connector_Generic
-LIBS:Connector_Generic_MountingPin
-LIBS:Connector_Generic_Shielded
-LIBS:contrib
-LIBS:Converter_ACDC
-LIBS:Converter_DCDC
-LIBS:CPLD_Altera
-LIBS:CPLD_Xilinx
-LIBS:CPU
-LIBS:CPU_NXP_6800
-LIBS:CPU_NXP_68000
-LIBS:CPU_PowerPC
-LIBS:cypress
-LIBS:dc-dc
-LIBS:Device
-LIBS:digital-audio
-LIBS:Diode
-LIBS:Diode_Bridge
-LIBS:Diode_Laser
-LIBS:display
-LIBS:Display_Character
-LIBS:Display_Graphic
-LIBS:dk_Addressable-Specialty
-LIBS:dk_Alarms-Buzzers-and-Sirens
-LIBS:dk_Automotive-Relays
-LIBS:dk_Balun
-LIBS:dk_Barrel-Audio-Connectors
-LIBS:dk_Battery-Holders-Clips-Contacts
-LIBS:dk_Clock-Timing-Clock-Generators-PLLs-Frequency-Synthesizers
-LIBS:dk_Clock-Timing-Programmable-Timers-and-Oscillators
-LIBS:dk_Clock-Timing-Real-Time-Clocks
-LIBS:dk_Coaxial-Connectors-RF
-LIBS:dk_Current-Transducers
-LIBS:dk_Data-Acquisition-ADCs-DACs-Special-Purpose
-LIBS:dk_Data-Acquisition-Analog-to-Digital-Converters-ADC
-LIBS:dk_Data-Acquisition-Digital-Potentiometers
-LIBS:dk_Data-Acquisition-Digital-to-Analog-Converters-DAC
-LIBS:dk_Data-Acquisition-Touch-Screen-Controllers
-LIBS:dk_DC-DC-Converters
-LIBS:dk_Digital-Isolators
-LIBS:dk_Diodes-Bridge-Rectifiers
-LIBS:dk_Diodes-Rectifiers-Arrays
-LIBS:dk_Diodes-Rectifiers-Single
-LIBS:dk_Diodes-Zener-Single
-LIBS:dk_Display-Modules-LCD-OLED-Graphic
-LIBS:dk_Display-Modules-LED-Character-and-Numeric
-LIBS:dk_D-Sub-Connectors
-LIBS:dk_Embedded-Microcontrollers
-LIBS:dk_Encoders
-LIBS:dk_Evaluation-Boards-Sensors
-LIBS:dk_Ferrite-Beads-and-Chips
-LIBS:dk_Fixed-Inductors
-LIBS:dk_Fuses
-LIBS:dk_Gas-Sensors
-LIBS:dk_Humidity-Moisture-Sensors
-LIBS:dk_Image-Sensors-Camera
-LIBS:dk_Infrared-UV-Visible-Emitters
-LIBS:dk_Inrush-Current-Limiters-ICL
-LIBS:dk_Interface-Analog-Switches-Multiplexers-Demultiplexers
-LIBS:dk_Interface-Analog-Switches-Special-Purpose
-LIBS:dk_Interface-Controllers
-LIBS:dk_Interface-Drivers-Receivers-Transceivers
-LIBS:dk_Interface-I-O-Expanders
-LIBS:dk_Interface-Modules
-LIBS:dk_Interface-Sensor-and-Detector-Interfaces
-LIBS:dk_Interface-Sensor-Capacitive-Touch
-LIBS:dk_Interface-Specialized
-LIBS:dk_LED-Indication-Discrete
-LIBS:dk_LEDs-Circuit-Board-Indicators-Arrays-Light-Bars-Bar-Graphs
-LIBS:dk_Linear-Amplifiers-Audio
-LIBS:dk_Linear-Amplifiers-Instrumentation-OP-Amps-Buffer-Amps
-LIBS:dk_Linear-Comparators
-LIBS:dk_Logic-Buffers-Drivers-Receivers-Transceivers
-LIBS:dk_Logic-Flip-Flops
-LIBS:dk_Logic-Gates-and-Inverters
-LIBS:dk_Logic-Multivibrators
-LIBS:dk_Logic-Shift-Registers
-LIBS:dk_Logic-Signal-Switches-Multiplexers-Decoders
-LIBS:dk_Logic-Translators-Level-Shifters
-LIBS:dk_Magnetic-Sensors-Compass-Magnetic-Field-Modules
-LIBS:dk_Magnetic-Sensors-Linear-Compass-ICs
-LIBS:dk_Magnetic-Sensors-Switches-Solid-State
-LIBS:dk_Memory
-LIBS:dk_Memory-Connectors-PC-Card-Sockets
-LIBS:dk_Microphones
-LIBS:dk_Modular-Connectors-Jacks
-LIBS:dk_Modular-Connectors-Jacks-With-Magnetics
-LIBS:dk_Motion-Sensors-Accelerometers
-LIBS:dk_Motion-Sensors-IMUs-Inertial-Measurement-Units
-LIBS:dk_Motion-Sensors-Tilt-Switches
-LIBS:dk_Navigation-Switches-Joystick
-LIBS:dk_Optical-Sensors-Ambient-Light-IR-UV-Sensors
-LIBS:dk_Optical-Sensors-Photo-Detectors-Remote-Receiver
-LIBS:dk_Optical-Sensors-Photodiodes
-LIBS:dk_Optical-Sensors-Phototransistors
-LIBS:dk_Optical-Sensors-Reflective-Analog-Output
-LIBS:dk_Optoisolators-Logic-Output
-LIBS:dk_Optoisolators-Transistor-Photovoltaic-Output
-LIBS:dk_Optoisolators-Triac-SCR-Output
-LIBS:dk_Oscillators
-LIBS:dk_PMIC-AC-DC-Converters-Offline-Switchers
-LIBS:dk_PMIC-Battery-Chargers
-LIBS:dk_PMIC-Battery-Management
-LIBS:dk_PMIC-Current-Regulation-Management
-LIBS:dk_PMIC-Full-Half-Bridge-Drivers
-LIBS:dk_PMIC-Gate-Drivers
-LIBS:dk_PMIC-LED-Drivers
-LIBS:dk_PMIC-Motor-Drivers-Controllers
-LIBS:dk_PMIC-OR-Controllers-Ideal-Diodes
-LIBS:dk_PMIC-Power-Distribution-Switches-Load-Drivers
-LIBS:dk_PMIC-Power-Management-Specialized
-LIBS:dk_PMIC-RMS-to-DC-Converters
-LIBS:dk_PMIC-Supervisors
-LIBS:dk_PMIC-Thermal-Management
-LIBS:dk_PMIC-V-F-and-F-V-Converters
-LIBS:dk_PMIC-Voltage-Reference
-LIBS:dk_PMIC-Voltage-Regulators-DC-DC-Switching-Controllers
-LIBS:dk_PMIC-Voltage-Regulators-DC-DC-Switching-Regulators
-LIBS:dk_PMIC-Voltage-Regulators-Linear
-LIBS:dk_PMIC-Voltage-Regulators-Special-Purpose
-LIBS:dk_Power-Relays-Over-2-Amps
-LIBS:dk_Pressure-Sensors-Transducers
-LIBS:dk_Programmable-Oscillators
-LIBS:dk_Pushbutton-Switches
-LIBS:dk_Rectangular-Connectors-Headers-Male-Pins
-LIBS:dk_Reed-Relays
-LIBS:dk_Resistor-Networks-Arrays
-LIBS:dk_RF-Amplifiers
-LIBS:dk_RF-Antennas
-LIBS:dk_RF-Demodulators
-LIBS:dk_RF-Detectors
-LIBS:dk_RF-Evaluation-and-Development-Kits-Boards
-LIBS:dk_RFID-RF-Access-Monitoring-ICs
-LIBS:dk_RF-Receivers
-LIBS:dk_RF-Switches
-LIBS:dk_RF-Transceiver-ICs
-LIBS:dk_RF-Transceiver-Modules
-LIBS:dk_RF-Transmitters
-LIBS:dk_Rotary-Potentiometers-Rheostats
-LIBS:dk_Sensors-Transducers_Accessories
-LIBS:dk_Signal-Relays-Up-to-2-Amps
-LIBS:dk_Slide-Switches
-LIBS:dk_Solid-State-Relays
-LIBS:dk_Specialized-ICs
-LIBS:dk_Specialized-Sensors
-LIBS:dk_Surge-Suppression-ICs
-LIBS:dk_Tactile-Switches
-LIBS:dk_Temperature-Sensors-Analog-and-Digital-Output
-LIBS:dk_Thermal-Cutoffs-Thermal-Fuses
-LIBS:dk_Thyristors-DIACs-SIDACs
-LIBS:dk_Thyristors-SCRs
-LIBS:dk_Thyristors-TRIACs
-LIBS:dk_Toggle-Switches
-LIBS:dk_Transistors-Bipolar-BJT-Arrays
-LIBS:dk_Transistors-Bipolar-BJT-RF
-LIBS:dk_Transistors-Bipolar-BJT-Single
-LIBS:dk_Transistors-Bipolar-BJT-Single-Pre-Biased
-LIBS:dk_Transistors-FETs-MOSFETs-Arrays
-LIBS:dk_Transistors-FETs-MOSFETs-RF
-LIBS:dk_Transistors-FETs-MOSFETs-Single
-LIBS:dk_Transistors-JFETs
-LIBS:dk_Trimmer-Potentiometers
-LIBS:dk_TVS-Diodes
-LIBS:dk_TVS-Mixed-Technology
-LIBS:dk_USB-DVI-HDMI-Connectors
-LIBS:Driver_Display
-LIBS:Driver_FET
-LIBS:Driver_LED
-LIBS:Driver_Motor
-LIBS:Driver_Relay
-LIBS:dsp
-LIBS:DSP_Freescale
-LIBS:DSP_Microchip_DSPIC33
-LIBS:DSP_Motorola
-LIBS:DSP_Texas
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:Filter
-LIBS:FPGA_Microsemi
-LIBS:FPGA_Xilinx
-LIBS:FPGA_Xilinx_Artix7
-LIBS:FPGA_Xilinx_Kintex7
-LIBS:FPGA_Xilinx_Spartan6
-LIBS:FPGA_Xilinx_Virtex5
-LIBS:FPGA_Xilinx_Virtex6
-LIBS:FPGA_Xilinx_Virtex7
-LIBS:ftdi
-LIBS:gennum
-LIBS:GPU
-LIBS:Graphic
-LIBS:graphic_symbols
-LIBS:hc11
-LIBS:infineon
-LIBS:intel
-LIBS:Interface
-LIBS:Interface_CAN_LIN
-LIBS:Interface_CurrentLoop
-LIBS:Interface_Ethernet
-LIBS:Interface_Expansion
-LIBS:Interface_HID
-LIBS:Interface_LineDriver
-LIBS:Interface_Optical
-LIBS:Interface_Telecom
-LIBS:Interface_UART
-LIBS:Interface_USB
-LIBS:intersil
-LIBS:ir
-LIBS:Isolator
-LIBS:Isolator_Analog
-LIBS:Jumper
-LIBS:Lattice
-LIBS:LED
-LIBS:leds
-LIBS:LEM
-LIBS:linear
-LIBS:Logic_LevelTranslator
-LIBS:Logic_Programmable
-LIBS:maxim
-LIBS:MCU_AnalogDevices
-LIBS:MCU_Cypress
-LIBS:MCU_Espressif
-LIBS:MCU_Intel
-LIBS:MCU_Microchip_8051
-LIBS:MCU_Microchip_ATmega
-LIBS:MCU_Microchip_ATtiny
-LIBS:MCU_Microchip_AVR
-LIBS:MCU_Microchip_PIC10
-LIBS:MCU_Microchip_PIC12
-LIBS:MCU_Microchip_PIC16
-LIBS:MCU_Microchip_PIC18
-LIBS:MCU_Microchip_PIC24
-LIBS:MCU_Microchip_PIC32
-LIBS:MCU_Microchip_SAME
-LIBS:MCU_Microchip_SAML
-LIBS:MCU_Module
-LIBS:MCU_Nordic
-LIBS:MCU_NXP_ColdFire
-LIBS:MCU_NXP_HC11
-LIBS:MCU_NXP_HC12
-LIBS:MCU_NXP_HCS12
-LIBS:MCU_NXP_Kinetis
-LIBS:MCU_NXP_LPC
-LIBS:MCU_NXP_MAC7100
-LIBS:MCU_NXP_MCore
-LIBS:MCU_NXP_S08
-LIBS:MCU_Parallax
-LIBS:MCU_SiFive
-LIBS:MCU_SiliconLabs
-LIBS:MCU_ST_STM8
-LIBS:MCU_ST_STM32F0
-LIBS:MCU_ST_STM32F1
-LIBS:MCU_ST_STM32F2
-LIBS:MCU_ST_STM32F3
-LIBS:MCU_ST_STM32F4
-LIBS:MCU_ST_STM32F7
-LIBS:MCU_ST_STM32H7
-LIBS:MCU_ST_STM32L0
-LIBS:MCU_ST_STM32L1
-LIBS:MCU_ST_STM32L4
-LIBS:MCU_ST_STM32L4+
-LIBS:MCU_Texas
-LIBS:MCU_Texas_MSP430
-LIBS:Mechanical
-LIBS:memory
-LIBS:Memory_Controller
-LIBS:Memory_EEPROM
-LIBS:Memory_EPROM
-LIBS:Memory_Flash
-LIBS:Memory_NVRAM
-LIBS:Memory_RAM
-LIBS:Memory_ROM
-LIBS:Memory_UniqueID
-LIBS:microchip
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic24mcu
-LIBS:microchip_pic32mcu
-LIBS:microcontrollers
-LIBS:modules
-LIBS:Motor
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:motors
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillator
-LIBS:Oscillators
-LIBS:philips
-LIBS:Potentiometer_Digital
-LIBS:power
-LIBS:Power_Management
-LIBS:Power_Protection
-LIBS:Power_Supervisor
-LIBS:powerint
-LIBS:pspice
-LIBS:Reference_Current
-LIBS:Reference_Voltage
-LIBS:references
-LIBS:regul
-LIBS:Regulator_Controller
-LIBS:Regulator_Current
-LIBS:Regulator_Linear
-LIBS:Regulator_SwitchedCapacitor
-LIBS:Regulator_Switching
-LIBS:Relay
-LIBS:Relay_SolidState
-LIBS:relays
-LIBS:RF
-LIBS:RF_AM_FM
-LIBS:RF_Amplifier
-LIBS:RF_Bluetooth
-LIBS:RF_GPS
-LIBS:RF_Mixer
-LIBS:RF_Module
-LIBS:RF_RFID
-LIBS:RF_Switch
-LIBS:RF_WiFi
-LIBS:RF_ZigBee
-LIBS:rfcom
-LIBS:RFSolutions
-LIBS:Sensor
-LIBS:Sensor_Audio
-LIBS:Sensor_Current
-LIBS:Sensor_Gas
-LIBS:Sensor_Humidity
-LIBS:Sensor_Magnetic
-LIBS:Sensor_Motion
-LIBS:Sensor_Optical
-LIBS:Sensor_Pressure
-LIBS:Sensor_Proximity
-LIBS:Sensor_Temperature
-LIBS:Sensor_Touch
-LIBS:Sensor_Voltage
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:Switch
-LIBS:switches
-LIBS:texas
-LIBS:Timer
-LIBS:Timer_PLL
-LIBS:Timer_RTC
-LIBS:transf
-LIBS:Transformer
-LIBS:Transistor_Array
-LIBS:Transistor_BJT
-LIBS:Transistor_FET
-LIBS:Transistor_IGBT
-LIBS:transistors
-LIBS:Triac_Thyristor
-LIBS:ttl_ieee
-LIBS:Valve
-LIBS:valves
-LIBS:Video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:zetex
-LIBS:Zilog
-LIBS:device
-LIBS:audio
-LIBS:interface
-LIBS:ch340t
-LIBS:ld33v
+EESchema Schematic File Version 4
 LIBS:LPC1114_LED_Cube-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -424,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LPC1114FBD48-302 LPC1114_0
+L MCU_NXP_LPC:LPC1114FBD48-302 LPC1114_0
 U 1 1 5B249928
 P 4550 3300
 F 0 "LPC1114_0" H 4050 4750 50  0000 C CNN
@@ -435,7 +26,7 @@ F 3 "" H 6450 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TLC5940PWPR LED_CH0_CTRL0
+L dk_PMIC-LED-Drivers:TLC5940PWPR LED_CH0_CTRL0
 U 1 1 5B249A67
 P 8000 2800
 F 0 "LED_CH0_CTRL0" H 7800 3340 60  0000 R CNN
@@ -455,7 +46,7 @@ F 12 "Active" H 8200 4000 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 5B24A69F
 P 4550 4900
 F 0 "#PWR01" H 4550 4650 50  0001 C CNN
@@ -466,7 +57,7 @@ F 3 "" H 4550 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L power:GND #PWR03
 U 1 1 5B24A932
 P 8050 4400
 F 0 "#PWR03" H 8050 4150 50  0001 C CNN
@@ -487,7 +78,7 @@ DCPRG
 Text GLabel 7600 3100 0    60   Input ~ 0
 VPRG
 $Comp
-L R R102
+L Device:R R102
 U 1 1 5B24AC4C
 P 6750 2650
 F 0 "R102" V 6830 2650 50  0000 C CNN
@@ -498,7 +89,7 @@ F 3 "" H 6750 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L power:GND #PWR04
 U 1 1 5B24ACEF
 P 6500 2400
 F 0 "#PWR04" H 6500 2150 50  0001 C CNN
@@ -558,21 +149,21 @@ Text GLabel 13600 2600 0    60   Input ~ 0
 LED_CH0_6
 Text GLabel 13600 2700 0    60   Input ~ 0
 LED_CH0_7
-Text GLabel 14100 2000 2    60   Input ~ 0
-LED_CH0_8
-Text GLabel 14100 2100 2    60   Input ~ 0
-LED_CH0_9
-Text GLabel 14100 2200 2    60   Input ~ 0
-LED_CH0_10
-Text GLabel 14100 2300 2    60   Input ~ 0
-LED_CH0_11
-Text GLabel 14100 2400 2    60   Input ~ 0
-LED_CH0_12
-Text GLabel 14100 2500 2    60   Input ~ 0
-LED_CH0_13
-Text GLabel 14100 2600 2    60   Input ~ 0
-LED_CH0_14
 Text GLabel 14100 2700 2    60   Input ~ 0
+LED_CH0_8
+Text GLabel 14100 2600 2    60   Input ~ 0
+LED_CH0_9
+Text GLabel 14100 2500 2    60   Input ~ 0
+LED_CH0_10
+Text GLabel 14100 2400 2    60   Input ~ 0
+LED_CH0_11
+Text GLabel 14100 2300 2    60   Input ~ 0
+LED_CH0_12
+Text GLabel 14100 2200 2    60   Input ~ 0
+LED_CH0_13
+Text GLabel 14100 2100 2    60   Input ~ 0
+LED_CH0_14
+Text GLabel 14100 2000 2    60   Input ~ 0
 LED_CH0_15
 Text GLabel 8500 4000 2    60   Input ~ 0
 SOUT_CH0_CH1
@@ -594,10 +185,8 @@ Text GLabel 3850 3600 0    60   Output ~ 0
 VPRG
 Text GLabel 3850 3400 0    60   Output ~ 0
 XLAT
-Text GLabel 5250 3400 2    60   Input ~ 0
-XERR_CH0
 $Comp
-L TLC5940PWPR LED_CH1_CTRL0
+L dk_PMIC-LED-Drivers:TLC5940PWPR LED_CH1_CTRL0
 U 1 1 5B24BADC
 P 8000 6600
 F 0 "LED_CH1_CTRL0" H 7800 7140 60  0000 R CNN
@@ -617,7 +206,7 @@ F 12 "Active" H 8200 7800 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L power:GND #PWR05
 U 1 1 5B24BAE2
 P 8050 8200
 F 0 "#PWR05" H 8050 7950 50  0001 C CNN
@@ -638,7 +227,7 @@ DCPRG
 Text GLabel 7600 6900 0    60   Input ~ 0
 VPRG
 $Comp
-L R R101
+L Device:R R101
 U 1 1 5B24BAF7
 P 6750 6450
 F 0 "R101" V 6830 6450 50  0000 C CNN
@@ -649,7 +238,7 @@ F 3 "" H 6750 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L power:GND #PWR06
 U 1 1 5B24BAFD
 P 6550 6300
 F 0 "#PWR06" H 6550 6050 50  0001 C CNN
@@ -713,21 +302,21 @@ Text GLabel 13600 3600 0    60   Input ~ 0
 LED_CH1_6
 Text GLabel 13600 3700 0    60   Input ~ 0
 LED_CH1_7
-Text GLabel 14100 3000 2    60   Input ~ 0
-LED_CH1_8
-Text GLabel 14100 3100 2    60   Input ~ 0
-LED_CH1_9
-Text GLabel 14100 3200 2    60   Input ~ 0
-LED_CH1_10
-Text GLabel 14100 3300 2    60   Input ~ 0
-LED_CH1_11
-Text GLabel 14100 3400 2    60   Input ~ 0
-LED_CH1_12
-Text GLabel 14100 3500 2    60   Input ~ 0
-LED_CH1_13
-Text GLabel 14100 3600 2    60   Input ~ 0
-LED_CH1_14
 Text GLabel 14100 3700 2    60   Input ~ 0
+LED_CH1_8
+Text GLabel 14100 3600 2    60   Input ~ 0
+LED_CH1_9
+Text GLabel 14100 3500 2    60   Input ~ 0
+LED_CH1_10
+Text GLabel 14100 3400 2    60   Input ~ 0
+LED_CH1_11
+Text GLabel 14100 3300 2    60   Input ~ 0
+LED_CH1_12
+Text GLabel 14100 3200 2    60   Input ~ 0
+LED_CH1_13
+Text GLabel 14100 3100 2    60   Input ~ 0
+LED_CH1_14
+Text GLabel 14100 3000 2    60   Input ~ 0
 LED_CH1_15
 Text GLabel 13600 4000 0    60   Input ~ 0
 LED_CH2_0
@@ -745,21 +334,21 @@ Text GLabel 13600 4600 0    60   Input ~ 0
 LED_CH2_6
 Text GLabel 13600 4700 0    60   Input ~ 0
 LED_CH2_7
-Text GLabel 14100 4000 2    60   Input ~ 0
-LED_CH2_8
-Text GLabel 14100 4100 2    60   Input ~ 0
-LED_CH2_9
-Text GLabel 14100 4200 2    60   Input ~ 0
-LED_CH2_10
-Text GLabel 14100 4300 2    60   Input ~ 0
-LED_CH2_11
-Text GLabel 14100 4400 2    60   Input ~ 0
-LED_CH2_12
-Text GLabel 14100 4500 2    60   Input ~ 0
-LED_CH2_13
-Text GLabel 14100 4600 2    60   Input ~ 0
-LED_CH2_14
 Text GLabel 14100 4700 2    60   Input ~ 0
+LED_CH2_8
+Text GLabel 14100 4600 2    60   Input ~ 0
+LED_CH2_9
+Text GLabel 14100 4500 2    60   Input ~ 0
+LED_CH2_10
+Text GLabel 14100 4400 2    60   Input ~ 0
+LED_CH2_11
+Text GLabel 14100 4300 2    60   Input ~ 0
+LED_CH2_12
+Text GLabel 14100 4200 2    60   Input ~ 0
+LED_CH2_13
+Text GLabel 14100 4100 2    60   Input ~ 0
+LED_CH2_14
+Text GLabel 14100 4000 2    60   Input ~ 0
 LED_CH2_15
 Text GLabel 13600 5000 0    60   Input ~ 0
 LED_CH3_0
@@ -777,24 +366,24 @@ Text GLabel 13600 5600 0    60   Input ~ 0
 LED_CH3_6
 Text GLabel 13600 5700 0    60   Input ~ 0
 LED_CH3_7
-Text GLabel 14100 5000 2    60   Input ~ 0
-LED_CH3_8
-Text GLabel 14100 5100 2    60   Input ~ 0
-LED_CH3_9
-Text GLabel 14100 5200 2    60   Input ~ 0
-LED_CH3_10
-Text GLabel 14100 5300 2    60   Input ~ 0
-LED_CH3_11
-Text GLabel 14100 5400 2    60   Input ~ 0
-LED_CH3_12
-Text GLabel 14100 5500 2    60   Input ~ 0
-LED_CH3_13
-Text GLabel 14100 5600 2    60   Input ~ 0
-LED_CH3_14
 Text GLabel 14100 5700 2    60   Input ~ 0
+LED_CH3_8
+Text GLabel 14100 5600 2    60   Input ~ 0
+LED_CH3_9
+Text GLabel 14100 5500 2    60   Input ~ 0
+LED_CH3_10
+Text GLabel 14100 5400 2    60   Input ~ 0
+LED_CH3_11
+Text GLabel 14100 5300 2    60   Input ~ 0
+LED_CH3_12
+Text GLabel 14100 5200 2    60   Input ~ 0
+LED_CH3_13
+Text GLabel 14100 5100 2    60   Input ~ 0
+LED_CH3_14
+Text GLabel 14100 5000 2    60   Input ~ 0
 LED_CH3_15
 $Comp
-L TLC5940PWPR LED_CH2_CTRL0
+L dk_PMIC-LED-Drivers:TLC5940PWPR LED_CH2_CTRL0
 U 1 1 5B24C332
 P 10800 2800
 F 0 "LED_CH2_CTRL0" H 10600 3340 60  0000 R CNN
@@ -814,7 +403,7 @@ F 12 "Active" H 11000 4000 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L power:GND #PWR07
 U 1 1 5B24C338
 P 10850 4400
 F 0 "#PWR07" H 10850 4150 50  0001 C CNN
@@ -835,7 +424,7 @@ DCPRG
 Text GLabel 10400 3100 0    60   Input ~ 0
 VPRG
 $Comp
-L R R104
+L Device:R R104
 U 1 1 5B24C34E
 P 9550 2650
 F 0 "R104" V 9630 2650 50  0000 C CNN
@@ -846,7 +435,7 @@ F 3 "" H 9550 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L power:GND #PWR08
 U 1 1 5B24C354
 P 9350 2500
 F 0 "#PWR08" H 9350 2250 50  0001 C CNN
@@ -895,7 +484,7 @@ SOUT_CH2_CH3
 Text GLabel 11300 4100 2    60   Input ~ 0
 XERR_CH2
 $Comp
-L TLC5940PWPR LED_CH3_CTRL0
+L dk_PMIC-LED-Drivers:TLC5940PWPR LED_CH3_CTRL0
 U 1 1 5B24C37B
 P 10750 6500
 F 0 "LED_CH3_CTRL0" H 10550 7040 60  0000 R CNN
@@ -915,7 +504,7 @@ F 12 "Active" H 10950 7700 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L power:GND #PWR09
 U 1 1 5B24C381
 P 10800 8100
 F 0 "#PWR09" H 10800 7850 50  0001 C CNN
@@ -936,7 +525,7 @@ DCPRG
 Text GLabel 10350 6800 0    60   Input ~ 0
 VPRG
 $Comp
-L R R103
+L Device:R R103
 U 1 1 5B24C397
 P 9500 6350
 F 0 "R103" V 9580 6350 50  0000 C CNN
@@ -947,7 +536,7 @@ F 3 "" H 9500 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR010
+L power:GND #PWR010
 U 1 1 5B24C39D
 P 9300 6200
 F 0 "#PWR010" H 9300 5950 50  0001 C CNN
@@ -1002,13 +591,13 @@ SOUT_CH1_CH2
 Text GLabel 10350 6700 0    60   Input ~ 0
 SOUT_CH2_CH3
 Text GLabel 5250 3700 2    60   Input ~ 0
-XERR_CH3
+XERR_MCU_CH3
 Text GLabel 5250 3600 2    60   Input ~ 0
-XERR_CH2
+XERR_MCU_CH2
 Text GLabel 5250 3500 2    60   Input ~ 0
-XERR_CH1
+XERR_MCU_CH1
 $Comp
-L C C113
+L Device:C C113
 U 1 1 5B24E283
 P 10100 1850
 F 0 "C113" H 10125 1950 50  0000 L CNN
@@ -1019,7 +608,7 @@ F 3 "" H 10100 1850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR011
+L power:GND #PWR011
 U 1 1 5B24E372
 P 9800 1900
 F 0 "#PWR011" H 9800 1650 50  0001 C CNN
@@ -1030,7 +619,7 @@ F 3 "" H 9800 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C108
+L Device:C C108
 U 1 1 5B24E4C5
 P 7350 1900
 F 0 "C108" H 7375 2000 50  0000 L CNN
@@ -1041,7 +630,7 @@ F 3 "" H 7350 1900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR012
+L power:GND #PWR012
 U 1 1 5B24E4CB
 P 7050 1950
 F 0 "#PWR012" H 7050 1700 50  0001 C CNN
@@ -1052,7 +641,7 @@ F 3 "" H 7050 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C109
+L Device:C C109
 U 1 1 5B24E6A7
 P 7300 5650
 F 0 "C109" H 7325 5750 50  0000 L CNN
@@ -1063,7 +652,7 @@ F 3 "" H 7300 5650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR013
+L power:GND #PWR013
 U 1 1 5B24E6AD
 P 7000 5700
 F 0 "#PWR013" H 7000 5450 50  0001 C CNN
@@ -1074,7 +663,7 @@ F 3 "" H 7000 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C112
+L Device:C C112
 U 1 1 5B24E829
 P 10050 5550
 F 0 "C112" H 10075 5650 50  0000 L CNN
@@ -1085,7 +674,7 @@ F 3 "" H 10050 5550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR014
+L power:GND #PWR014
 U 1 1 5B24E82F
 P 9750 5600
 F 0 "#PWR014" H 9750 5350 50  0001 C CNN
@@ -1096,7 +685,7 @@ F 3 "" H 9750 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C104
+L Device:C C104
 U 1 1 5B24EBF6
 P 4150 1550
 F 0 "C104" H 4175 1650 50  0000 L CNN
@@ -1107,7 +696,7 @@ F 3 "" H 4150 1550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR015
+L power:GND #PWR015
 U 1 1 5B24EBFC
 P 3850 1600
 F 0 "#PWR015" H 3850 1350 50  0001 C CNN
@@ -1118,7 +707,7 @@ F 3 "" H 3850 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x08 LAYER_VOUT0
+L conn:Conn_01x08 LAYER_VOUT0
 U 1 1 5B24F0DA
 P 14700 7950
 F 0 "LAYER_VOUT0" H 14700 8350 50  0000 C CNN
@@ -1129,7 +718,7 @@ F 3 "" H 14700 7950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CH340T CH340T_0
+L ch340t:CH340T CH340T_0
 U 1 1 5B2F3A76
 P 4750 7000
 F 0 "CH340T_0" H 4800 7750 60  0000 C CNN
@@ -1140,7 +729,7 @@ F 3 "" H 4750 7000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LD33V LD33V_0
+L ld33v:LD33V LD33V_0
 U 1 1 5B308AC0
 P 6400 9850
 F 0 "LD33V_0" H 6250 9975 50  0000 C CNN
@@ -1151,7 +740,7 @@ F 3 "" H 6400 9850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR016
+L power:GND #PWR016
 U 1 1 5B308C3F
 P 6400 10250
 F 0 "#PWR016" H 6400 10000 50  0001 C CNN
@@ -1164,7 +753,7 @@ $EndComp
 Text GLabel 3350 6950 2    60   Output ~ 0
 V5_USB
 $Comp
-L CP1 C110
+L Device:CP1 C110
 U 1 1 5B309A48
 P 5800 10000
 F 0 "C110" H 5825 10100 50  0000 L CNN
@@ -1175,7 +764,7 @@ F 3 "" H 5800 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C111
+L Device:CP1 C111
 U 1 1 5B309B3B
 P 7000 10000
 F 0 "C111" H 7025 10100 50  0000 L CNN
@@ -1190,7 +779,7 @@ V3
 Text GLabel 2350 6000 0    60   Input ~ 0
 V3
 $Comp
-L CP1 C101
+L Device:CP1 C101
 U 1 1 5B30B278
 P 3100 6150
 F 0 "C101" H 3125 6250 50  0000 L CNN
@@ -1201,7 +790,7 @@ F 3 "" H 3100 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
+L power:GND #PWR017
 U 1 1 5B30B33B
 P 3100 6450
 F 0 "#PWR017" H 3100 6200 50  0001 C CNN
@@ -1212,7 +801,7 @@ F 3 "" H 3100 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C102
+L Device:C C102
 U 1 1 5B30BC9C
 P 3450 6150
 F 0 "C102" H 3475 6250 50  0000 L CNN
@@ -1223,7 +812,7 @@ F 3 "" H 3450 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR018
+L power:GND #PWR018
 U 1 1 5B30CC76
 P 4250 7550
 F 0 "#PWR018" H 4250 7300 50  0001 C CNN
@@ -1234,7 +823,7 @@ F 3 "" H 4250 7550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Crystal Y101
+L Device:Crystal Y101
 U 1 1 5B30D7EE
 P 4050 7950
 F 0 "Y101" H 4050 8100 50  0000 C CNN
@@ -1245,7 +834,7 @@ F 3 "" H 4050 7950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C103
+L Device:C C103
 U 1 1 5B30D8EC
 P 3650 8100
 F 0 "C103" H 3675 8200 50  0000 L CNN
@@ -1256,7 +845,7 @@ F 3 "" H 3650 8100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C105
+L Device:C C105
 U 1 1 5B30D9EA
 P 4450 8100
 F 0 "C105" H 4475 8200 50  0000 L CNN
@@ -1267,7 +856,7 @@ F 3 "" H 4450 8100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR019
+L power:GND #PWR019
 U 1 1 5B30DA7D
 P 4050 8250
 F 0 "#PWR019" H 4050 8000 50  0001 C CNN
@@ -1282,7 +871,7 @@ TXD_USB
 Text GLabel 3950 6650 0    60   Output ~ 0
 RXD_USB
 $Comp
-L C C107
+L Device:C C107
 U 1 1 5B349958
 P 5700 5150
 F 0 "C107" H 5725 5250 50  0000 L CNN
@@ -1293,7 +882,7 @@ F 3 "" H 5700 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C106
+L Device:C C106
 U 1 1 5B349A5A
 P 5050 5150
 F 0 "C106" H 5075 5250 50  0000 L CNN
@@ -1304,7 +893,7 @@ F 3 "" H 5050 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Crystal Y102
+L Device:Crystal Y102
 U 1 1 5B349B5B
 P 5450 5000
 F 0 "Y102" H 5450 5150 50  0000 C CNN
@@ -1315,7 +904,7 @@ F 3 "" H 5450 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR020
+L power:GND #PWR020
 U 1 1 5B349C67
 P 5450 5300
 F 0 "#PWR020" H 5450 5050 50  0001 C CNN
@@ -1336,7 +925,7 @@ SWCLK
 Text GLabel 3850 2100 0    60   Input ~ 0
 _RESET
 $Comp
-L Conn_02x05_Odd_Even SWDEBUG0
+L conn:Conn_02x05_Odd_Even SWDEBUG0
 U 1 1 5B34C079
 P 4000 10000
 F 0 "SWDEBUG0" H 4050 10300 50  0000 C CNN
@@ -1355,7 +944,7 @@ _RESET
 Text GLabel 3800 9800 0    60   Input ~ 0
 V3
 $Comp
-L GND #PWR021
+L power:GND #PWR021
 U 1 1 5B34D06C
 P 3700 10400
 F 0 "#PWR021" H 3700 10150 50  0001 C CNN
@@ -1366,7 +955,7 @@ F 3 "" H 3700 10400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Barrel_Jack PWR_JACK0
+L conn:Barrel_Jack PWR_JACK0
 U 1 1 5B34AA76
 P 5500 9100
 F 0 "PWR_JACK0" H 5500 9310 50  0000 C CNN
@@ -1387,7 +976,7 @@ V5
 Text GLabel 5550 9850 0    60   Input ~ 0
 V5_USB
 $Comp
-L GND #PWR022
+L power:GND #PWR022
 U 1 1 5B34CCE8
 P 5900 9300
 F 0 "#PWR022" H 5900 9050 50  0001 C CNN
@@ -1398,7 +987,7 @@ F 3 "" H 5900 9300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x03 PWR_SEL1
+L conn:Conn_01x03 PWR_SEL1
 U 1 1 5B34D72E
 P 7050 9100
 F 0 "PWR_SEL1" H 7050 9300 50  0000 C CNN
@@ -1465,7 +1054,7 @@ AUX_SPI_MISO
 Text GLabel 4350 9150 2    60   Input ~ 0
 AUX_SPI_MOSI
 $Comp
-L Conn_02x04_Odd_Even Wireless/SPI_1
+L conn:Conn_02x04_Odd_Even Wireless/SPI_1
 U 1 1 5B361CD0
 P 4050 9050
 F 0 "Wireless/SPI_1" H 4100 9250 50  0000 C CNN
@@ -1478,7 +1067,7 @@ $EndComp
 Text GLabel 4350 8950 2    60   Input ~ 0
 V3
 $Comp
-L GND #PWR023
+L power:GND #PWR023
 U 1 1 5B362960
 P 3500 8750
 F 0 "#PWR023" H 3500 8500 50  0001 C CNN
@@ -1529,7 +1118,7 @@ V3
 Text GLabel 14100 6000 2    60   Input ~ 0
 V3
 $Comp
-L GND #PWR024
+L power:GND #PWR024
 U 1 1 5B3DA978
 P 14400 6700
 F 0 "#PWR024" H 14400 6450 50  0001 C CNN
@@ -1540,7 +1129,7 @@ F 3 "" H 14400 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR025
+L power:GND #PWR025
 U 1 1 5B3DAA55
 P 13300 6700
 F 0 "#PWR025" H 13300 6450 50  0001 C CNN
@@ -1597,7 +1186,7 @@ PIO3_4
 Text GLabel 14100 6600 2    60   Input ~ 0
 PIO3_5
 $Comp
-L +5V #PWR026
+L power:+5V #PWR026
 U 1 1 5B3E89D0
 P 3300 6850
 F 0 "#PWR026" H 3300 6700 50  0001 C CNN
@@ -1608,7 +1197,7 @@ F 3 "" H 3300 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR027
+L power:GND #PWR027
 U 1 1 5B3E9E37
 P 2800 7650
 F 0 "#PWR027" H 2800 7400 50  0001 C CNN
@@ -1619,7 +1208,7 @@ F 3 "" H 2800 7650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x01 CH340_CKO_0
+L conn:Conn_01x01 CH340_CKO_0
 U 1 1 5B3EC8CB
 P 4600 5800
 F 0 "CH340_CKO_0" H 4600 5900 50  0000 C CNN
@@ -1630,7 +1219,7 @@ F 3 "" H 4600 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L USB_B USB_CONN_0
+L conn:USB_B USB_CONN_0
 U 1 1 5B3EF79C
 P 2850 7150
 F 0 "USB_CONN_0" H 2650 7600 50  0000 L CNN
@@ -1640,36 +1229,8 @@ F 3 "" H 3000 7100 50  0001 C CNN
 	1    2850 7150
 	1    0    0    -1  
 $EndComp
-Text GLabel 8450 9050 0    60   Input ~ 0
-LED_DATA_SCK
-Text GLabel 8450 8950 0    60   Input ~ 0
-SOUT
-Text GLabel 8450 8850 0    60   Input ~ 0
-V3
 $Comp
-L GND #PWR028
-U 1 1 5B3F974D
-P 8250 9150
-F 0 "#PWR028" H 8250 8900 50  0001 C CNN
-F 1 "GND" H 8250 9000 50  0000 C CNN
-F 2 "" H 8250 9150 50  0001 C CNN
-F 3 "" H 8250 9150 50  0001 C CNN
-	1    8250 9150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x04 LED/SPI_0
-U 1 1 5B3F9D66
-P 8650 8950
-F 0 "LED/SPI_0" H 8650 9150 50  0000 C CNN
-F 1 "Conn_01x04" H 8650 8650 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 8650 8950 50  0001 C CNN
-F 3 "" H 8650 8950 50  0001 C CNN
-	1    8650 8950
-	1    0    0    -1  
-$EndComp
-$Comp
-L CP1 C114
+L Device:CP1 C114
 U 1 1 5B407294
 P 2800 6150
 F 0 "C114" H 2825 6250 50  0000 L CNN
@@ -1680,51 +1241,51 @@ F 3 "" H 2800 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x08_Odd_Even LED_CH0
+L conn:Conn_02x08_Odd_Even LED_CH0
 U 1 1 5B3C6116
-P 13800 2300
-F 0 "LED_CH0" H 13850 2700 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 13850 1800 50  0000 C CNN
-F 2 "Connectors_Multicomp:Multicomp_MC9A12-1634_2x08x2.54mm_Straight" H 13800 2300 50  0001 C CNN
-F 3 "" H 13800 2300 50  0001 C CNN
-	1    13800 2300
-	1    0    0    -1  
+P 13800 2400
+F 0 "LED_CH0" H 13850 2800 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 13850 1900 50  0000 C CNN
+F 2 "Connectors_Multicomp:Multicomp_MC9A12-1634_2x08x2.54mm_Straight" H 13800 2400 50  0001 C CNN
+F 3 "" H 13800 2400 50  0001 C CNN
+	1    13800 2400
+	1    0    0    1   
 $EndComp
 $Comp
-L Conn_02x08_Odd_Even LED_CH1
+L conn:Conn_02x08_Odd_Even LED_CH1
 U 1 1 5B3C65CB
-P 13800 3300
-F 0 "LED_CH1" H 13850 3700 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 13850 2800 50  0000 C CNN
-F 2 "Connectors_Multicomp:Multicomp_MC9A12-1634_2x08x2.54mm_Straight" H 13800 3300 50  0001 C CNN
-F 3 "" H 13800 3300 50  0001 C CNN
-	1    13800 3300
-	1    0    0    -1  
+P 13800 3400
+F 0 "LED_CH1" H 13850 3800 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 13850 2900 50  0000 C CNN
+F 2 "Connectors_Multicomp:Multicomp_MC9A12-1634_2x08x2.54mm_Straight" H 13800 3400 50  0001 C CNN
+F 3 "" H 13800 3400 50  0001 C CNN
+	1    13800 3400
+	1    0    0    1   
 $EndComp
 $Comp
-L Conn_02x08_Odd_Even LED_CH2
+L conn:Conn_02x08_Odd_Even LED_CH2
 U 1 1 5B3C66C5
-P 13800 4300
-F 0 "LED_CH2" H 13850 4700 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 13850 3800 50  0000 C CNN
-F 2 "Connectors_Multicomp:Multicomp_MC9A12-1634_2x08x2.54mm_Straight" H 13800 4300 50  0001 C CNN
-F 3 "" H 13800 4300 50  0001 C CNN
-	1    13800 4300
-	1    0    0    -1  
+P 13800 4400
+F 0 "LED_CH2" H 13850 4800 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 13850 3900 50  0000 C CNN
+F 2 "Connectors_Multicomp:Multicomp_MC9A12-1634_2x08x2.54mm_Straight" H 13800 4400 50  0001 C CNN
+F 3 "" H 13800 4400 50  0001 C CNN
+	1    13800 4400
+	1    0    0    1   
 $EndComp
 $Comp
-L Conn_02x08_Odd_Even LED_CH3
+L conn:Conn_02x08_Odd_Even LED_CH3
 U 1 1 5B3C67CC
-P 13800 5300
-F 0 "LED_CH3" H 13850 5700 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 13850 4800 50  0000 C CNN
-F 2 "Connectors_Multicomp:Multicomp_MC9A12-1634_2x08x2.54mm_Straight" H 13800 5300 50  0001 C CNN
-F 3 "" H 13800 5300 50  0001 C CNN
-	1    13800 5300
-	1    0    0    -1  
+P 13800 5400
+F 0 "LED_CH3" H 13850 5800 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 13850 4900 50  0000 C CNN
+F 2 "Connectors_Multicomp:Multicomp_MC9A12-1634_2x08x2.54mm_Straight" H 13800 5400 50  0001 C CNN
+F 3 "" H 13800 5400 50  0001 C CNN
+	1    13800 5400
+	1    0    0    1   
 $EndComp
 $Comp
-L Conn_02x08_Odd_Even AUX_I/O_0
+L conn:Conn_02x08_Odd_Even AUX_I/O_0
 U 1 1 5B3C82FE
 P 13800 6300
 F 0 "AUX_I/O_0" H 13850 6700 50  0000 C CNN
@@ -1739,7 +1300,7 @@ ISP_ENTRY
 Text GLabel 1700 3300 0    60   Input ~ 0
 ISP_ENTRY
 $Comp
-L GND #PWR033
+L power:GND #PWR033
 U 1 1 5B3DC5CE
 P 2450 3500
 F 0 "#PWR033" H 2450 3250 50  0001 C CNN
@@ -1752,7 +1313,7 @@ $EndComp
 Text GLabel 1900 2200 0    60   Input ~ 0
 _RESET
 $Comp
-L SW_SPST RESET0
+L Switch:SW_SPST RESET0
 U 1 1 5B3DDA5E
 P 2100 2200
 F 0 "RESET0" H 2100 2325 50  0000 C CNN
@@ -1763,7 +1324,7 @@ F 3 "" H 2100 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR034
+L power:GND #PWR034
 U 1 1 5B3DDD85
 P 2450 2300
 F 0 "#PWR034" H 2450 2050 50  0001 C CNN
@@ -1774,7 +1335,7 @@ F 3 "" H 2450 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_DIP_x02 MODE_SELECT_0
+L Switch:SW_DIP_x02 MODE_SELECT_0
 U 1 1 5B430A03
 P 2000 3400
 F 0 "MODE_SELECT_0" H 2000 3650 50  0000 C CNN
@@ -1801,23 +1362,23 @@ V3
 Text GLabel 10850 5550 0    60   Input ~ 0
 V3
 Wire Wire Line
-	4450 4800 4650 4800
+	4450 4800 4550 4800
 Wire Wire Line
 	4550 4800 4550 4900
 Connection ~ 4550 4800
 Wire Wire Line
 	8050 4400 8050 4300
 Wire Wire Line
-	8000 4300 8100 4300
+	8000 4300 8050 4300
 Connection ~ 8050 4300
 Wire Wire Line
-	8100 1800 8100 2200
+	8100 1800 8100 2050
 Wire Wire Line
 	6750 2800 7600 2800
 Wire Wire Line
 	8050 8200 8050 8100
 Wire Wire Line
-	8000 8100 8100 8100
+	8000 8100 8050 8100
 Connection ~ 8050 8100
 Wire Wire Line
 	6750 6300 6750 6250
@@ -1830,10 +1391,10 @@ Wire Wire Line
 Wire Wire Line
 	10850 4400 10850 4300
 Wire Wire Line
-	10800 4300 10900 4300
+	10800 4300 10850 4300
 Connection ~ 10850 4300
 Wire Wire Line
-	10900 1850 10900 2200
+	10900 1850 10900 2050
 Wire Wire Line
 	9550 2500 9550 2450
 Wire Wire Line
@@ -1845,10 +1406,10 @@ Wire Wire Line
 Wire Wire Line
 	10800 8100 10800 8000
 Wire Wire Line
-	10750 8000 10850 8000
+	10750 8000 10800 8000
 Connection ~ 10800 8000
 Wire Wire Line
-	10850 5550 10850 5900
+	10850 5550 10850 5750
 Wire Wire Line
 	9500 6200 9500 6150
 Wire Wire Line
@@ -1880,29 +1441,29 @@ Wire Wire Line
 Wire Wire Line
 	4300 1550 4550 1550
 Wire Wire Line
-	2750 7550 2850 7550
+	2750 7550 2800 7550
 Wire Wire Line
 	2800 7550 2800 7650
 Connection ~ 2800 7550
 Wire Wire Line
-	5800 10150 7000 10150
+	5800 10150 6400 10150
 Wire Wire Line
 	6400 10150 6400 10250
 Connection ~ 6400 10150
 Wire Wire Line
-	5550 9850 6100 9850
+	5550 9850 5800 9850
 Connection ~ 5800 9850
 Wire Wire Line
-	6700 9850 7250 9850
+	6700 9850 7000 9850
 Connection ~ 7000 9850
 Connection ~ 3100 6000
 Wire Wire Line
-	2800 6300 3450 6300
+	2800 6300 3100 6300
 Wire Wire Line
 	3100 6300 3100 6450
 Connection ~ 3450 6000
 Wire Wire Line
-	2350 6000 5550 6000
+	2350 6000 2800 6000
 Wire Wire Line
 	5550 6500 5300 6500
 Wire Wire Line
@@ -1929,7 +1490,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 7100 4250 7550
 Wire Wire Line
-	3650 8250 4450 8250
+	3650 8250 4050 8250
 Connection ~ 4050 8250
 Wire Wire Line
 	3650 7950 3900 7950
@@ -1962,7 +1523,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 6700 4350 6700
 Wire Wire Line
-	5050 5300 5700 5300
+	5050 5300 5450 5300
 Connection ~ 5450 5300
 Wire Wire Line
 	5700 5000 5600 5000
@@ -1981,7 +1542,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 9900 3700 9900
 Wire Wire Line
-	3700 9900 3700 10400
+	3700 9900 3700 10000
 Wire Wire Line
 	3800 10000 3700 10000
 Connection ~ 3700 10000
@@ -2097,7 +1658,7 @@ Wire Wire Line
 Wire Wire Line
 	13300 6700 13600 6700
 Wire Wire Line
-	3150 6950 3350 6950
+	3150 6950 3300 6950
 Wire Wire Line
 	3300 6950 3300 6850
 Connection ~ 3300 6950
@@ -2106,14 +1667,12 @@ Wire Wire Line
 Wire Wire Line
 	4350 5800 4400 5800
 Wire Wire Line
-	8450 9150 8250 9150
+	4450 1800 4550 1800
 Wire Wire Line
-	4450 1800 4650 1800
-Wire Wire Line
-	4550 1350 4550 1800
+	4550 1350 4550 1550
 Connection ~ 4550 1800
 Wire Wire Line
-	8100 5650 8100 6000
+	8100 5650 8100 5850
 Wire Wire Line
 	7650 5850 8100 5850
 Connection ~ 3100 6300
@@ -2121,7 +1680,7 @@ Connection ~ 2800 6000
 Wire Wire Line
 	3850 2200 3350 2200
 Wire Wire Line
-	3350 2100 3350 2300
+	3350 2100 3350 2200
 Wire Wire Line
 	3350 2100 3300 2100
 Wire Wire Line
@@ -2132,7 +1691,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 2200 2300 2200
 Wire Wire Line
-	2450 3300 2450 3500
+	2450 3300 2450 3400
 Wire Wire Line
 	2450 3400 2300 3400
 Wire Wire Line
@@ -2141,7 +1700,7 @@ Connection ~ 2450 3400
 Wire Wire Line
 	3050 2600 3150 2600
 Wire Wire Line
-	3150 2600 3150 2450
+	3150 2600 3150 2500
 Wire Wire Line
 	3150 2450 3050 2450
 Wire Wire Line
@@ -2156,4 +1715,159 @@ Connection ~ 8100 5850
 Connection ~ 8100 2050
 Connection ~ 10900 2050
 Connection ~ 4550 1550
+Wire Wire Line
+	4550 4800 4650 4800
+Wire Wire Line
+	8050 4300 8100 4300
+Wire Wire Line
+	8050 8100 8100 8100
+Wire Wire Line
+	10850 4300 10900 4300
+Wire Wire Line
+	10800 8000 10850 8000
+Wire Wire Line
+	2800 7550 2850 7550
+Wire Wire Line
+	6400 10150 7000 10150
+Wire Wire Line
+	5800 9850 6100 9850
+Wire Wire Line
+	7000 9850 7250 9850
+Wire Wire Line
+	3100 6000 3450 6000
+Wire Wire Line
+	3450 6000 4150 6000
+Wire Wire Line
+	4150 6000 5550 6000
+Wire Wire Line
+	4050 8250 4450 8250
+Wire Wire Line
+	5450 5300 5700 5300
+Wire Wire Line
+	3700 10000 3700 10200
+Wire Wire Line
+	3700 10200 3700 10400
+Wire Wire Line
+	3300 6950 3350 6950
+Wire Wire Line
+	4550 1800 4650 1800
+Wire Wire Line
+	3100 6300 3450 6300
+Wire Wire Line
+	2800 6000 3100 6000
+Wire Wire Line
+	3350 2200 3350 2300
+Wire Wire Line
+	2450 3400 2450 3500
+Wire Wire Line
+	3150 2500 3150 2450
+Wire Wire Line
+	10850 5750 10850 5900
+Wire Wire Line
+	8100 5850 8100 6000
+Wire Wire Line
+	8100 2050 8100 2200
+Wire Wire Line
+	10900 2050 10900 2200
+Wire Wire Line
+	4550 1550 4550 1800
+$Comp
+L conn:Conn_01x01 XERR_CH0_BRIDGE0
+U 1 1 5B5FDEE8
+P 8500 4850
+F 0 "XERR_CH0_BRIDGE0" H 8419 4717 50  0000 C CNN
+F 1 "Conn_01x01" H 8419 4626 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 8500 4850 50  0001 C CNN
+F 3 "" H 8500 4850 50  0001 C CNN
+	1    8500 4850
+	1    0    0    -1  
+$EndComp
+Text GLabel 8300 4850 0    60   Input ~ 0
+XERR_CH0
+Text GLabel 5250 3400 2    60   Input ~ 0
+XERR_MCU_CH0
+$Comp
+L conn:Conn_01x01 XERR_CH0_BRIDGE1
+U 1 1 5B63FF20
+P 8850 4850
+F 0 "XERR_CH0_BRIDGE1" H 8770 4625 50  0000 C CNN
+F 1 "Conn_01x01" H 8770 4716 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 8850 4850 50  0001 C CNN
+F 3 "" H 8850 4850 50  0001 C CNN
+	1    8850 4850
+	-1   0    0    1   
+$EndComp
+Text GLabel 9050 4850 2    60   Input ~ 0
+XERR_MCU_CH0
+$Comp
+L conn:Conn_01x01 XERR_CH2_BRIDGE0
+U 1 1 5B661208
+P 11350 4850
+F 0 "XERR_CH2_BRIDGE0" H 11269 4717 50  0000 C CNN
+F 1 "Conn_01x01" H 11269 4626 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 11350 4850 50  0001 C CNN
+F 3 "" H 11350 4850 50  0001 C CNN
+	1    11350 4850
+	1    0    0    -1  
+$EndComp
+Text GLabel 11150 4850 0    60   Input ~ 0
+XERR_CH2
+$Comp
+L conn:Conn_01x01 XERR_CH2_BRIDGE1
+U 1 1 5B661210
+P 11700 4850
+F 0 "XERR_CH2_BRIDGE1" H 11620 4625 50  0000 C CNN
+F 1 "Conn_01x01" H 11620 4716 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 11700 4850 50  0001 C CNN
+F 3 "" H 11700 4850 50  0001 C CNN
+	1    11700 4850
+	-1   0    0    1   
+$EndComp
+Text GLabel 11900 4850 2    60   Input ~ 0
+XERR_MCU_CH2
+Text GLabel 10750 8650 0    60   Input ~ 0
+XERR_CH3
+Text GLabel 11500 8650 2    60   Input ~ 0
+XERR_MCU_CH3
+$Comp
+L conn:Conn_01x01 XERR_CH1_BRIDGE0
+U 1 1 5B68197B
+P 8400 8650
+F 0 "XERR_CH1_BRIDGE0" H 8319 8517 50  0000 C CNN
+F 1 "Conn_01x01" H 8319 8426 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 8400 8650 50  0001 C CNN
+F 3 "" H 8400 8650 50  0001 C CNN
+	1    8400 8650
+	1    0    0    -1  
+$EndComp
+Text GLabel 8200 8650 0    60   Input ~ 0
+XERR_CH1
+$Comp
+L conn:Conn_01x01 XERR_CH1_BRIDGE1
+U 1 1 5B681983
+P 8750 8650
+F 0 "XERR_CH1_BRIDGE1" H 8670 8425 50  0000 C CNN
+F 1 "Conn_01x01" H 8670 8516 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 8750 8650 50  0001 C CNN
+F 3 "" H 8750 8650 50  0001 C CNN
+	1    8750 8650
+	-1   0    0    1   
+$EndComp
+Text GLabel 8950 8650 2    60   Input ~ 0
+XERR_MCU_CH1
+$Comp
+L conn:Conn_01x02 XERR_CH3_BRIDGE0
+U 1 1 5B6D773B
+P 11050 8450
+F 0 "XERR_CH3_BRIDGE0" V 11016 8262 50  0000 R CNN
+F 1 "Conn_01x02" V 10925 8262 50  0000 R CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 11050 8450 50  0001 C CNN
+F 3 "~" H 11050 8450 50  0001 C CNN
+	1    11050 8450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11500 8650 11150 8650
+Wire Wire Line
+	11050 8650 10750 8650
 $EndSCHEMATC
