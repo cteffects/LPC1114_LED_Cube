@@ -14,7 +14,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 2650 1850 0    60   Input ~ 0
+Text HLabel 2200 1850 0    60   Input ~ 0
 LAYER_0_ON
 Text GLabel 2950 1150 0    60   Input ~ 0
 V5
@@ -82,31 +82,31 @@ F 12 "Active" H 3900 2600 60  0001 L CNN "Status"
 	1    3700 1400
 	1    0    0    1   
 $EndComp
-Text HLabel 2650 3150 0    60   Input ~ 0
+Text HLabel 2200 3150 0    60   Input ~ 0
 LAYER_1_ON
 Text HLabel 4400 2950 2    60   Output ~ 0
 LAYER_1_PWR
-Text HLabel 2650 4400 0    60   Input ~ 0
+Text HLabel 2200 4400 0    60   Input ~ 0
 LAYER_2_ON
 Text HLabel 4400 4200 2    60   Output ~ 0
 LAYER_2_PWR
-Text HLabel 2650 5700 0    60   Input ~ 0
+Text HLabel 2200 5700 0    60   Input ~ 0
 LAYER_3_ON
 Text HLabel 4400 5500 2    60   Output ~ 0
 LAYER_3_PWR
-Text HLabel 5800 1900 0    60   Input ~ 0
+Text HLabel 5350 1900 0    60   Input ~ 0
 LAYER_4_ON
 Text HLabel 7550 1700 2    60   Output ~ 0
 LAYER_4_PWR
-Text HLabel 5800 3200 0    60   Input ~ 0
+Text HLabel 5350 3200 0    60   Input ~ 0
 LAYER_5_ON
 Text HLabel 7550 3000 2    60   Output ~ 0
 LAYER_5_PWR
-Text HLabel 5800 4450 0    60   Input ~ 0
+Text HLabel 5350 4450 0    60   Input ~ 0
 LAYER_6_ON
 Text HLabel 7550 4250 2    60   Output ~ 0
 LAYER_6_PWR
-Text HLabel 5800 5750 0    60   Input ~ 0
+Text HLabel 5350 5750 0    60   Input ~ 0
 LAYER_7_ON
 Text HLabel 7550 5550 2    60   Output ~ 0
 LAYER_7_PWR
@@ -911,4 +911,108 @@ Wire Wire Line
 Wire Wire Line
 	5950 1900 6050 1900
 Connection ~ 5950 1900
+$Comp
+L Device:R R217
+U 1 1 5B5EED1F
+P 2500 1850
+F 0 "R217" V 2580 1850 50  0000 C CNN
+F 1 "100R" V 2500 1850 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 2430 1850 50  0001 C CNN
+F 3 "" H 2500 1850 50  0001 C CNN
+	1    2500 1850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2350 1850 2200 1850
+$Comp
+L Device:R R218
+U 1 1 5B5FE9C5
+P 2500 3150
+F 0 "R218" V 2580 3150 50  0000 C CNN
+F 1 "100R" V 2500 3150 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 2430 3150 50  0001 C CNN
+F 3 "" H 2500 3150 50  0001 C CNN
+	1    2500 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2350 3150 2200 3150
+$Comp
+L Device:R R219
+U 1 1 5B602BCB
+P 2500 4400
+F 0 "R219" V 2580 4400 50  0000 C CNN
+F 1 "100R" V 2500 4400 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 2430 4400 50  0001 C CNN
+F 3 "" H 2500 4400 50  0001 C CNN
+	1    2500 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2350 4400 2200 4400
+$Comp
+L Device:R R220
+U 1 1 5B602BD2
+P 2500 5700
+F 0 "R220" V 2580 5700 50  0000 C CNN
+F 1 "100R" V 2500 5700 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 2430 5700 50  0001 C CNN
+F 3 "" H 2500 5700 50  0001 C CNN
+	1    2500 5700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2350 5700 2200 5700
+$Comp
+L Device:R R221
+U 1 1 5B60B355
+P 5650 1900
+F 0 "R221" V 5730 1900 50  0000 C CNN
+F 1 "100R" V 5650 1900 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 5580 1900 50  0001 C CNN
+F 3 "" H 5650 1900 50  0001 C CNN
+	1    5650 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 1900 5350 1900
+$Comp
+L Device:R R222
+U 1 1 5B60B35C
+P 5650 3200
+F 0 "R222" V 5730 3200 50  0000 C CNN
+F 1 "100R" V 5650 3200 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 5580 3200 50  0001 C CNN
+F 3 "" H 5650 3200 50  0001 C CNN
+	1    5650 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 3200 5350 3200
+$Comp
+L Device:R R223
+U 1 1 5B60B363
+P 5650 4450
+F 0 "R223" V 5730 4450 50  0000 C CNN
+F 1 "100R" V 5650 4450 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 5580 4450 50  0001 C CNN
+F 3 "" H 5650 4450 50  0001 C CNN
+	1    5650 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 4450 5350 4450
+$Comp
+L Device:R R224
+U 1 1 5B60B36A
+P 5650 5750
+F 0 "R224" V 5730 5750 50  0000 C CNN
+F 1 "100R" V 5650 5750 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 5580 5750 50  0001 C CNN
+F 3 "" H 5650 5750 50  0001 C CNN
+	1    5650 5750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 5750 5350 5750
 $EndSCHEMATC
