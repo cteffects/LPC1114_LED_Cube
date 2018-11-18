@@ -175,7 +175,7 @@ Text GLabel 3850 3500 0    60   Output ~ 0
 BLANK
 Text GLabel 3850 3800 0    60   Output ~ 0
 DCPRG
-Text GLabel 3300 2100 0    60   Output ~ 0
+Text GLabel 3850 3200 0    60   Output ~ 0
 LED_GS_CLK
 Text GLabel 3850 2700 0    60   Output ~ 0
 LED_DATA_SCK
@@ -580,8 +580,6 @@ Text GLabel 11250 7600 2    60   Input ~ 0
 LED_CH3_15
 Text GLabel 11250 7200 2    60   Input ~ 0
 LED_CH3_11
-Text GLabel 11250 7700 2    60   Input ~ 0
-SOUT
 Text GLabel 11250 7800 2    60   Input ~ 0
 XERR_CH3
 Text GLabel 7600 6800 0    60   Input ~ 0
@@ -1011,7 +1009,7 @@ Text GLabel 5250 3000 2    60   Output ~ 0
 LAYER_5_ON
 Text GLabel 5250 3100 2    60   Output ~ 0
 LAYER_6_ON
-Text GLabel 5250 3200 2    60   Output ~ 0
+Text GLabel 5250 2200 2    60   Output ~ 0
 LAYER_7_ON
 Text GLabel 13100 7300 0    60   Input ~ 0
 LAYER_0_ON
@@ -1037,7 +1035,7 @@ F15 "LAYER_6_PWR" O R 14250 8600 60
 F16 "LAYER_7_ON" I L 13250 8700 60 
 F17 "LAYER_7_PWR" O R 14250 8800 60 
 $EndSheet
-Text GLabel 5250 2200 2    60   Input ~ 0
+Text GLabel 5250 3200 2    60   Input ~ 0
 AUX_SPI_SCK
 Text GLabel 5250 2300 2    60   Input ~ 0
 AUX_SPI_MISO
@@ -1105,17 +1103,15 @@ NoConn ~ 4300 10100
 NoConn ~ 3800 10100
 NoConn ~ 4350 6500
 NoConn ~ 5300 6600
-NoConn ~ 5300 6800
 NoConn ~ 5300 6900
 NoConn ~ 5300 7000
 NoConn ~ 5300 7100
 NoConn ~ 5300 7200
-NoConn ~ 5300 7300
 NoConn ~ 5800 9100
 NoConn ~ 5300 6400
-Text GLabel 13600 6000 0    60   Input ~ 0
+Text GLabel 13450 6000 0    60   Input ~ 0
 V3
-Text GLabel 14100 6000 2    60   Input ~ 0
+Text GLabel 14300 6000 2    60   Input ~ 0
 V3
 $Comp
 L power:GND #PWR024
@@ -1147,26 +1143,18 @@ Text GLabel 3850 2500 0    60   Input ~ 0
 PIO0_4
 Text GLabel 3850 2600 0    60   Input ~ 0
 PIO0_5
-Text GLabel 13600 6200 0    60   Input ~ 0
-PIO0_3
 Text GLabel 13600 6300 0    60   Input ~ 0
-PIO0_4
+PIO0_3
 Text GLabel 13600 6400 0    60   Input ~ 0
+PIO0_4
+Text GLabel 13600 6500 0    60   Input ~ 0
 PIO0_5
 Text GLabel 3850 2800 0    60   Input ~ 0
-PIO0_7
+_CTS_MCU
 Text GLabel 3850 2900 0    60   Input ~ 0
-PIO0_8
-Text GLabel 13600 6500 0    60   Input ~ 0
-PIO0_7
-Text GLabel 13600 6600 0    60   Input ~ 0
-PIO0_8
-Text GLabel 3850 3200 0    60   Input ~ 0
-PIO0_11
+_RTS_MCU
 Text GLabel 3850 3900 0    60   Input ~ 0
 PIO1_5
-Text GLabel 14100 6100 2    60   Input ~ 0
-PIO0_11
 Text GLabel 14100 6200 2    60   Input ~ 0
 PIO1_5
 Text GLabel 3850 4400 0    60   Input ~ 0
@@ -1295,8 +1283,6 @@ F 3 "" H 13800 6300 50  0001 C CNN
 	1    13800 6300
 	1    0    0    -1  
 $EndComp
-Text GLabel 3300 2300 0    60   Input ~ 0
-ISP_ENTRY
 Text GLabel 1700 3300 0    60   Input ~ 0
 ISP_ENTRY
 $Comp
@@ -1345,7 +1331,7 @@ F 3 "" H 2000 3400 50  0001 C CNN
 	1    2000 3400
 	1    0    0    -1  
 $EndComp
-Text GLabel 13600 6100 0    60   Input ~ 0
+Text GLabel 13600 6200 0    60   Input ~ 0
 PIO0_2
 Text GLabel 3050 2600 0    60   Input ~ 0
 INPUT_MODE_SELECT
@@ -1656,7 +1642,7 @@ Wire Wire Line
 Wire Wire Line
 	14400 6700 14100 6700
 Wire Wire Line
-	13300 6700 13600 6700
+	13300 6700 13450 6700
 Wire Wire Line
 	3150 6950 3300 6950
 Wire Wire Line
@@ -1679,13 +1665,6 @@ Connection ~ 3100 6300
 Connection ~ 2800 6000
 Wire Wire Line
 	3850 2200 3350 2200
-Wire Wire Line
-	3350 2100 3350 2200
-Wire Wire Line
-	3350 2100 3300 2100
-Wire Wire Line
-	3350 2300 3300 2300
-Connection ~ 3350 2200
 Wire Wire Line
 	2450 2300 2450 2200
 Wire Wire Line
@@ -1755,8 +1734,6 @@ Wire Wire Line
 	3100 6300 3450 6300
 Wire Wire Line
 	2800 6000 3100 6000
-Wire Wire Line
-	3350 2200 3350 2300
 Wire Wire Line
 	2450 3400 2450 3500
 Wire Wire Line
@@ -1870,4 +1847,36 @@ Wire Wire Line
 	11500 8650 11150 8650
 Wire Wire Line
 	11050 8650 10750 8650
+Text GLabel 3350 2200 0    60   Input ~ 0
+ISP_ENTRY
+Text GLabel 5300 6800 2    60   Input ~ 0
+_CTS_MCU
+Text GLabel 5300 7300 2    60   Input ~ 0
+_RTS_MCU
+Wire Wire Line
+	13450 6700 13450 6600
+Wire Wire Line
+	13450 6600 13600 6600
+Connection ~ 13450 6700
+Wire Wire Line
+	13450 6700 13600 6700
+Wire Wire Line
+	14300 6000 14200 6000
+Wire Wire Line
+	14200 6000 14200 6100
+Wire Wire Line
+	14200 6100 14100 6100
+Connection ~ 14200 6000
+Wire Wire Line
+	14200 6000 14100 6000
+Wire Wire Line
+	13600 6000 13500 6000
+Wire Wire Line
+	13500 6000 13500 6100
+Wire Wire Line
+	13500 6100 13600 6100
+Connection ~ 13500 6000
+Wire Wire Line
+	13500 6000 13450 6000
+NoConn ~ 11250 7700
 $EndSCHEMATC
